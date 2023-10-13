@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import * as DevMenu from "expo-dev-menu";
 
+
 const Button = ({ label, onPress }) => (
   <TouchableOpacity style={styles.buttonContainer} onPress={onPress}>
     <Text style={styles.buttonText}>{label}</Text>
